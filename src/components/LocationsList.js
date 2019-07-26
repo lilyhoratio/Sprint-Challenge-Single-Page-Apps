@@ -5,7 +5,7 @@ import LocationCard from './LocationCard.js';
 export default function LocationsList() {
 
     const [locations, setLocations] = useState([])
-    console.log(locations)
+    // console.log(locations)
   
     useEffect(() => {
       axios
